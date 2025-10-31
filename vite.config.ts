@@ -1,12 +1,12 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vitejs.dev/config/
+// ✅ Correct config for GitHub Pages deployment
 export default defineConfig({
-  base: '/mrg-site-v2/',   // 👈 this matches your GitHub Pages repo name
+  base: './', // 👈 use relative paths, not /mrg-site-v2/
   build: {
-    outDir: '.',           // 👈 output directly to root
-    emptyOutDir: false,    // 👈 prevent deleting your source files
+    outDir: 'docs',       // output directly into docs/
+    emptyOutDir: true,    // clears old builds safely
   },
   plugins: [react()],
 })
