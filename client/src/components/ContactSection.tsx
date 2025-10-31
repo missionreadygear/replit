@@ -218,11 +218,11 @@ export default function ContactSection() {
                     Email Us
                   </h3>
                   <a 
-                    href="mailto:contact@armysurplus.example" 
+                    href="mailto:missionreadygear@gmail.com" 
                     className="text-primary hover:underline"
                     data-testid="link-email"
                   >
-                    contact@armysurplus.example
+                    missionreadygear@gmail.com
                   </a>
                   <p className="text-sm text-muted-foreground mt-2">
                     We typically respond within 24 hours
