@@ -6,12 +6,12 @@ import heroImage from "@assets/generated_images/Military_surplus_hero_background
 export default function HeroSection() {
   const handleEbayClick = () => {
     console.log('Navigate to eBay store');
-    window.open('https://www.ebay.com', '_blank', 'noopener,noreferrer');
+    window.open('https://ebay.com/str/missionreadygear', '_blank', 'noopener,noreferrer');
   };
 
   const handleInstagramClick = () => {
     console.log('Navigate to Instagram');
-    window.open('https://www.instagram.com', '_blank', 'noopener,noreferrer');
+    window.open('https://instagram.com/missionreadygear', '_blank', 'noopener,noreferrer');
   };
 
   return (
@@ -29,15 +29,14 @@ export default function HeroSection() {
       <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-black/70" />
       
       <div className="relative z-10 text-center px-4 py-12 max-w-4xl mx-auto">
-        <h1 className="font-condensed text-4xl md:text-5xl lg:text-6xl font-bold uppercase tracking-wide text-white mb-4">
-          Authentic Military Surplus
+        <h1 className="font-condensed text-4xl md:text-5xl lg:text-6xl font-bold uppercase tracking-widest text-white mb-4">
+          Mission Ready Gear
         </h1>
-        <p className="font-condensed text-xl md:text-2xl lg:text-3xl uppercase tracking-wide text-white/90 mb-3">
-          Gear That Endures
+        <p className="font-condensed text-xl md:text-2xl uppercase tracking-wide text-white/90 mb-3">
+          Be Ready for the Next Mission
         </p>
-        <p className="text-base md:text-lg text-white/80 mb-8 max-w-2xl mx-auto leading-relaxed">
-          Discover genuine military surplus equipment, tactical gear, and vintage collectibles. 
-          Quality tested by time, priced fairly for everyone.
+        <p className="font-condensed text-base md:text-lg uppercase tracking-wide text-white/80 mb-8">
+          Army Surplus - Tactical Gear
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

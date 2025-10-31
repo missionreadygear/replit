@@ -10,11 +10,11 @@ export default function Footer() {
   };
 
   const handleEbayClick = () => {
-    window.open('https://www.ebay.com', '_blank', 'noopener,noreferrer');
+    window.open('https://ebay.com/str/missionreadygear', '_blank', 'noopener,noreferrer');
   };
 
   const handleInstagramClick = () => {
-    window.open('https://www.instagram.com', '_blank', 'noopener,noreferrer');
+    window.open('https://instagram.com/missionreadygear', '_blank', 'noopener,noreferrer');
   };
 
   const handleContactScroll = () => {
@@ -27,11 +27,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
             <h3 className="font-condensed text-xl font-bold uppercase tracking-wide mb-4">
-              Army Surplus Store
+              Mission Ready Gear
             </h3>
             <p className="text-sm text-muted-foreground mb-4 leading-relaxed">
-              Your trusted source for authentic military surplus gear, tactical equipment, 
-              and vintage collectibles since 2013.
+              High-quality army surplus tactical clothing, backpacks, and accessories built for 
+              durability and performance.
             </p>
             <div className="flex gap-3">
               <Button
@@ -103,16 +103,16 @@ export default function Footer() {
           
           <div>
             <h3 className="font-condensed text-xl font-bold uppercase tracking-wide mb-4">
-              Stay Updated
+              Connect With Us
             </h3>
             <p className="text-sm text-muted-foreground mb-4">
-              Follow us on Instagram for new arrivals and exclusive deals
+              Follow @missionreadygear on Instagram
             </p>
             <Button
               onClick={handleInstagramClick}
               className="w-full md:w-auto font-bold uppercase tracking-wider"
               data-testid="button-footer-follow"
-              aria-label="Follow us on Instagram (opens in new window)"
+              aria-label="Follow @missionreadygear on Instagram (opens in new window)"
             >
               <Instagram className="mr-2 h-4 w-4" aria-hidden="true" />
               Follow Us
@@ -122,7 +122,7 @@ export default function Footer() {
         
         <div className="pt-8 border-t border-border flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground text-center sm:text-left">
-            © {currentYear} Army Surplus Store. All rights reserved.
+            © {currentYear} Mission Ready Gear. All rights reserved.
           </p>
           
           <Button

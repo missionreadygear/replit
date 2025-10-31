@@ -35,17 +35,17 @@ export default function AboutSection() {
               id="about-heading" 
               className="font-condensed text-3xl md:text-4xl font-bold uppercase tracking-wide text-foreground mb-6"
             >
-              Our Mission
+              About Us
             </h2>
             <p className="text-base md:text-lg text-muted-foreground mb-4 leading-relaxed">
-              For over a decade, we've been connecting collectors, outdoor enthusiasts, and history buffs 
-              with authentic military surplus gear. Every piece in our collection tells a story of service, 
-              durability, and craftsmanship.
+              At Mission Ready Gear, we specialize in high-quality army surplus tactical clothing, backpacks, 
+              and accessories built for durability and performance. Whether you're an outdoor enthusiast, 
+              prepper, or gear collector, our carefully sourced military surplus ensures you're always ready 
+              for the mission ahead.
             </p>
             <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
-              From vintage field equipment to modern tactical gear, we carefully source and inspect each item 
-              to ensure you receive genuine military surplus at fair prices. Our passion is preserving military 
-              history while making quality gear accessible to everyone.
+              We take pride in offering reliable surplus gear with excellent customer service. Shop with 
+              confidence and gear up for any adventure!
             </p>
           </div>
           
